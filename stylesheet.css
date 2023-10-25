@@ -1,0 +1,113 @@
+/* homepage*/
+#search{border-radius:25px;
+ border-color:black;
+float:right;
+padding: 5px 20px 5px 5px ; /* making search bar*/
+margin-top:20px; 
+ margin-right:10px;} 
+nav{ 
+width:100%; 
+background-color:navy; 
+display:inline-block;
+} 
+nav ul li a:hover{ 
+background-color:gold; /* making the link background colours gold upon hover*/
+color:white; 
+} 
+nav ul{ 
+list-style:none; 
+padding:0; 
+margin:0; 
+
+position:absolute; /*removing bullet points from list etc*/ 
+} 
+nav ul li{ 
+float:left; 
+} 
+nav ul li a{ 
+background-color:navy; 
+width:150px; /* making navigation bar*/
+color:gold; 
+display:inline-block; 
+text-decoration:none; 
+font-size:15px; 
+text-align:center; 
+padding:10px; 
+ } 
+nav ul li ul li{ 
+float:none; 
+} 
+nav ul li ul{ 
+display:none; 
+} 
+
+nav ul li:hover ul{ 
+display:block;
+} 
+nav ul li ul li a:hover{ 
+background-color:gold; 
+color:black; 
+} 
+footer p{ 
+width:100%; 
+background-color:navy; /* making footer*/ 
+text-align:center; 
+color:gold; 
+font-size:20px;
+}
+h4 {color:Gold;}
+h2{color:Gold;}
+/*media page*/
+
+
+.video{display:inline;
+position:relative;}
+.images{position:relative; /* positioning image media links */
+left:70%;
+bottom:260px;}
+/* Payment Page*/
+#stores{
+margin-left:20%;
+position:relative;
+bottom:120px;
+}
+#cards{
+margin-left:20%;
+position:relative;
+padding-top:20px;
+bottom:100px;
+}
+ /*positioning payment method images*/
+
+#snapscan{
+margin-left:20%;
+position:relative;
+padding-top:20px;
+bottom:100px;
+}
+ 
+#bank{margin-left:20%;
+position:relative;
+padding-top:20px;
+bottom:100px;
+}
+ 
+ /*Apply Page*/
+input[Type="text"],[type="email"],[type="date"]{
+display:inline-block;
+width:75%;
+height:16px;}
+ /* formatting the form to look appropriate*/
+select {
+ width: 40%;
+ padding:15px,0px;
+ margin-left:320px;
+
+}
+#course{margin-left:395PX;}
+#HEL{margin-left:290px;}
+textarea {width:75%;
+ padding:6px;}
+input[type="radio"]{margin-left:20%;}
+#Option1{margin-left:10%;}
+#Male{margin-left:16%;}
